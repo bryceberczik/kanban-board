@@ -109,9 +109,18 @@ tbody tr:nth-child(odd) {
 }
 
 .nav-item {
-  display: block;
-  margin-left: auto;
-  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.nav-item button {
+
+  margin: 0 25px;
+}
+
+.white-text {
+  color: white;
 }
 
 .nav-link {
